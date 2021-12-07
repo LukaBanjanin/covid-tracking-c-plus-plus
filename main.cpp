@@ -122,12 +122,12 @@ int main() {
     }
 
 do {//read metric from user
-        cout << endl << " Type the number corresponding to the metric you are interested in, then hit ENTER\n\n New Confirmed Cases: 1 \n New Deaths: 2 \n New Recovered Cases: 3 \n Total Confirmed Cases: 4 \n Total Recovered Cases: 5 \n Total Deaths: 6 \n\n";
+        cout << endl << " Type the number corresponding to the metric you are interested in, then hit ENTER\n\n 1: New Confirmed Cases\n 2: New Deaths\n 3: New Recovered Cases\n 4: Total Confirmed Cases\n 5: Total Recovered Cases\n 6: Total Deaths\n\n";
         cin >> metric;
 } while (metric != 1 && metric != 2 && metric != 3 && metric != 4 && metric != 5 && metric != 6 && metric != 1);//error handling
         
 do {//read desired ordering from user 
-        cout << "\n Type the number corresponding to the order in which you want the data to be displayed, then hit ENTER\n\n Descending order: 1 \n Ascending order: 2 \n\n";
+        cout << "\n Type the number corresponding to the order in which you want the data to be displayed, then hit ENTER\n\n 1: Descending order\n 2: Ascending order\n\n";
         cin >> ordering;
         cout << endl;
 } while (ordering != 1 && ordering != 2);//error handling
